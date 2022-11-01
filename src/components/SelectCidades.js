@@ -20,7 +20,7 @@ const SelectCidades = (props) => {
     // Options da biblioteca Select
     let optionsCidades = [];
 
-    // Request GET da API de cidades com atualização do city (linha 19);
+    // Request GET da API de cidades com atualização do city (linha 12);
   useEffect(() => {
     CidadesAPI.get()
       .then((resp) => setCity(resp.data))

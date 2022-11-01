@@ -20,7 +20,7 @@ const [country, setCountry] = useState([]);
 // Options da biblioteca Select
 let optionsPaises = [];
 
-// Request GET da API de países com atualização do country (linha X);
+// Request GET da API de países com atualização do country (linha 18);
 useEffect(() => {
     PaisesAPI.get()
       .then((response) => setCountry(response.data))
